@@ -1,7 +1,7 @@
 import asyncio
 import functools
 
-from .state import State
+from raftos.state import State
 
 
 def atomic_method(func):
@@ -112,4 +112,11 @@ class ReplicatedList(ReplicatedContainer):
     async def extend(self, lst):
         data = await self.get()
         data.extend(lst)
+        await self.set(data)
+
+    @atomic_method
+    async def delete(self, kwargs):
+        data = await self.get()
+        print ("TO REMOVE:", kwargs)
+        data.remove(kwargs)
         await self.set(data)
