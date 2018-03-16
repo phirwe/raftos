@@ -1,5 +1,5 @@
 README: Poorwa Hirve 
-CSCI-5673 Distributed Systems
+COURSE: CSCI-5673 Distributed Systems
 
 HOW TO COMPILE AND RUN:
 
