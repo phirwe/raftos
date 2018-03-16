@@ -1,4 +1,5 @@
-README: Poorwa Hirve (pohi2375)
+README: Poorwa Hirve 
+CSCI-5673 Distributed Systems
 
 HOW TO COMPILE AND RUN:
 
