@@ -5,7 +5,7 @@ Assignment: Create a Fault Tolerant Stack Data Structure
 
 HOW TO COMPILE AND RUN:
 
-Setup raftos by following the README.md file.
+Setup raftos by following the README-old.md file.
 
 Go to the examples folder and run the run_cluster.sh file which runs node.py
 
